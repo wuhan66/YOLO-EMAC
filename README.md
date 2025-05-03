@@ -1,6 +1,6 @@
 <div align="center">
-<h1>YOLOv12</h1>
-<h3>YOLOv-EMAC: A High-performance and Enhanced Generalization Small Target Defect Detection Method for PCB Boards Based on YOLO-EMAC</h3>
+<h1>YOLO-EMAC</h1>
+<h3>YOLO-EMAC: A High-performance and Enhanced Generalization Small Target Defect Detection Method for PCB Boards Based on YOLO-EMAC</h3>
   
 [Han Wu](https://github.com/wuhan66/YOLO-EMAC/)<sup>1</sup>
 
