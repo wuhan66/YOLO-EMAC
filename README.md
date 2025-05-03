@@ -36,7 +36,7 @@ results = model.train(
 ```
 # 🚀 YOLO-EMAC with FlashAttention
 
-This repository provides an efficient training pipeline for YOLOv12 using [Ultralytics](https://github.com/ultralytics/ultralytics) and [FlashAttention](https://github.com/Dao-AILab/flash-attention), enabling high-speed object detection on multi-GPU setups.
+This repository provides an efficient training pipeline for YOLO-EMAC using [Ultralytics](https://github.com/ultralytics/ultralytics) and [FlashAttention](https://github.com/Dao-AILab/flash-attention), enabling high-speed object detection on multi-GPU setups.
 
 ---
 
