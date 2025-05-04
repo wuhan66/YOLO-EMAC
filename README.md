@@ -2,9 +2,10 @@
 <h1>YOLO-EMAC</h1>
 <h3>YOLO-EMAC: A High-performance and Enhanced Generalization Small Target Defect Detection Method for PCB Boards Based on YOLO-EMAC</h3>
   
-[Han Wu](https://github.com/wuhan66/YOLO-EMAC/)<sup>1</sup>
+[Han Wu](https://github.com/wuhan66/YOLO-EMAC/)<sup>1,2</sup>, [Yunhan Lin]()<sup>1,2</sup>  
+<sup>1</sup> School of Computer Science and Technology, Wuhan University of Science and Technology, Wuhan, China  
+<sup>2</sup> Hubei Provincial Key Laboratory of Intelligent Information Processing and Real Time Industrial System, Wuhan, China
 
-<sup>1</sup> School of Computer Science and Technology, Wuhan University of Science and Technology, Hubei Provincial Key Laboratory of Intelligent Information Processing and Real Time Industrial System, Wuhan, China
 
 </div>
 
