@@ -78,6 +78,69 @@ This repository provides an efficient training pipeline for YOLO-EMAC using [Ult
 
 ---
 
+## 📦 Configuration
+- torch==2.2.2 
+- torchvision==0.17.2
+- flash_attn-2.7.3+cu11torch2.2cxx11abiFALSE-cp311-cp311-linux_x86_64.whl
+- timm==1.0.14
+- albumentations==2.0.4
+- onnx==1.14.0
+- onnxruntime==1.15.1
+- pycocotools==2.0.7
+- PyYAML==6.0.1
+- scipy==1.13.0
+- onnxslim==0.1.31
+- onnxruntime-gpu==1.18.0
+- gradio==4.44.1
+- opencv-python==4.9.0.80
+- psutil==5.9.8
+- py-cpuinfo==9.0.0
+- huggingface-hub==0.23.2
+- safetensors==0.4.3
+- numpy==1.26.4
+
+## 🚀 hyperparameters
+- batch_size: 32
+- img_size: [640, 640]
+- optimizer:
+  - type: "SGD"
+  - momentum: 0.937
+  - weight_decay: 0.0005
+- initial_lr: 0.01
+- warmup_epochs: 5
+- lr_scheduler:
+  - type: "cosine"
+  - T_max: "total_epochs"
+  - eta_min: 0.0001
+- lr_reduce_on_plateau:
+  - factor: 0.5
+  - patience: 10
+  - min_delta: 0.001
+- epochs:
+  - pcb_defect: 300
+  - deeppcb: 300
+  - surface: 500
+- early_stopping:
+  - patience: 10
+  - min_delta: 0.001
+- augmentation:
+  - mosaic_prob: 0.5
+  - flip_prob_h: 0.5
+  - flip_prob_v: 0.5
+  - scale: [0.8, 1.2]
+  - translate: 0.2
+- normalization:
+  - mean: [0.485, 0.456, 0.406]
+  - std: [0.229, 0.224, 0.225]
+- interpolation: "bilinear"
+- mixed_precision: true
+- grad_clip_max_norm: 10
+- validation_iou_threshold: 0.7
+- nms:
+  - score_threshold: 0.25
+  - iou_threshold: 0.45
+
+
 ## Validation
 [`yolov-emac-deeppcb`](https://github.com/wuhan66/YOLO-EMAC/edit/main/training_logs_and_weights/deeppcb/best.pt)
 [`yolov-emac-pcbdefect`](https://github.com/wuhan66/YOLO-EMAC/edit/main/training_logs_and_weights/pcbdefect/best.pt)
