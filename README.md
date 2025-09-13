@@ -22,14 +22,12 @@ pip install -e .
 The following three datasets can be used to train and evaluate PCB defect detection models:
 
 - **DeepPCB Dataset**  
-  - Link (Access Code: TzQ2):  
     ```
     https://pan.quark.cn/s/7ee803e03889
     ```
   - Description: The DeepPCB dataset is a publicly available PCB defect detection dataset containing various defect types (e.g., “missing copper,” “solder skip,” etc.). All images have a uniform resolution and complete annotations, making it suitable for small-object defect detection tasks.
 
 - **PCBDefect Dataset**  
-  - Link (Access Code: 1BMD):  
     ```
     https://pan.quark.cn/s/367b4007a88a
     ```
