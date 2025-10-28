@@ -23,7 +23,7 @@ The following three datasets can be used to train and evaluate PCB defect detect
 
 - **DeepPCB Dataset**  
     ```
-    https://pan.quark.cn/s/7ee803e03889
+    https://pan.quark.cn/s/2d76aea04631
     ```
   - Description: The DeepPCB dataset is a publicly available PCB defect detection dataset containing various defect types (e.g., “missing copper,” “solder skip,” etc.). All images have a uniform resolution and complete annotations, making it suitable for small-object defect detection tasks.
 
@@ -36,7 +36,7 @@ The following three datasets can be used to train and evaluate PCB defect detect
 - **PCBSurface Defect Dataset**  
   - Link:  
     ```
-    https://robotics.pkusz.edu.cn/resources/dataset/
+    https://pan.quark.cn/s/59472a1fb32e
     ```
   - Description: Released by the Robotics and Intelligent Manufacturing Research Group at Shenzhen University, this dataset contains real PCB surface defect images and corresponding annotation files. It’s ideal for evaluating detection performance in real-world scenarios.
 
